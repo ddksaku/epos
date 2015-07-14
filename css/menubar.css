@@ -1,0 +1,161 @@
+#menubar
+{
+	position:relative;
+	margin:0px;
+	padding:0px;
+	width:100%;
+	height:120px;
+	color:#000000;
+	background-color:#FFFFFF;
+	text-align:left;
+	text-align:center;
+}
+
+#menubar_footer
+{
+	position:relative;
+	top:3px;
+	left:0px;
+	height:40px;
+	width:1000px;
+	padding-top:0px;
+	background-color:#FFFFFF;
+	text-align:center;
+	font-size:14px;
+	font-weight:bold;
+	background-image:url(../images/menubar/footer_slice.gif);
+/*
+	-moz-border-radius : 10px;
+    -webkit-border-radius : 10px;
+    border-radius : 10px;
+*/
+}
+
+
+#menubar_container
+{
+	position:relative;
+	margin:0 auto;
+	width:1000px;
+	height:120px;
+	text-align:left;
+}
+
+
+
+.menu_item
+{
+	float:left;
+	width:140px;
+	height:100%;
+	text-align:center;
+	font-size:12pt;
+	font-family:Arial;
+	padding-top:13px;
+}
+
+.menu_item_logout
+{
+	float:right;
+	width:150px;
+	height:100%;
+	text-align:center;
+	font-size:12pt;
+	font-family:Arial;
+	padding-top:13px;
+}
+
+
+#menubar a:link, #menubar a:visited, #menubar a
+{
+	color:#FFFFFF;
+	text-decoration:none;
+}
+
+#menubar_footer a:link, #menubar_footer a:visited, #menubar_footer a
+{
+	color:#FFFFFF;
+	text-decoration:none;
+}
+
+#menubar_footer a:hover
+{
+	color:#FF0000;
+	text-decoration:none;
+}
+
+
+.first-link
+{
+	color:#FFFFFF;
+
+	text-decoration:none;
+	font-weight:bold;
+
+}
+
+/*
+#menubar a:hover
+{
+	color:#FFFFFF;
+	text-decoration:none;
+}
+*/
+
+
+#menubar_company_info
+{
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:250px;
+	height:80px;
+}
+
+#company_title
+{
+	font-size:14pt;
+	font-weight:bold;
+}
+
+#menubar_navigation
+{
+	position:relative;
+	width:750px;
+	left:250px;
+	top:0px;
+	height:77px;
+	background-image:url(../images/menubar/header_navigation.gif);
+/*
+	position:relative;
+	width:750px;
+	left:250px;
+	top:0px;
+	height:77px;
+*/
+}
+
+
+#menubar_intro
+{
+	width:375px;
+	height:77px;
+	background-color:#01692E;
+	position:relative;
+	top:0px;
+	left:625px;
+	text-align:center;
+}
+
+
+#menubar_date
+{
+	position:absolute;
+	top:80px;
+	right:0px;
+	height:17%;
+	padding-top:3px;
+	font-size:8pt;
+	font-weight:bold;
+	color:#FFFFFF;
+}

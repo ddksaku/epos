@@ -1,0 +1,481 @@
+#table_action_header
+{
+	position:relative;
+	width:100%;
+	background-color:#EEEEEE;
+	background-image:url(../images/checkbox_arrow.gif);
+	height:26px;
+	border-top:1px solid #CCCCCC;
+	background-position:5px 10px;
+	background-repeat:no-repeat;
+	padding:3px 0px 3px 0px;
+}
+
+#table_action_header ul
+{
+	list-style:none;
+	padding:0px;
+	margin:0px;
+	margin-left:15px;
+}
+
+#table_action_header ul li
+{
+	margin-left:8px;
+	margin-right:4px;
+
+}
+/*
+#table_action_header ul li span
+{
+	background-color:#0a6184;
+	border:2px solid #DDDDDD;
+	font-size:14px;
+	padding:2px 5px 2px 5px;
+
+}
+
+#table_action_header a
+{
+	text-decoration:none;
+	color:#FFF;
+}
+*/
+#table_holder
+{
+	position:relative;
+	margin-bottom:0px;
+}
+
+table.tablesorter
+{
+	position:relative;
+	width:100%;
+	/*border-top:2px solid #CCCCCC;*/
+	border-left:3px solid #CCCCCC;
+	border-right:3px solid #CCCCCC;
+	/*border-bottom:2px solid #CCCCCC;*/
+	font-family:Arial;
+	border-spacing:1px;
+/*	border-collapse:collapse;
+	border-collapse: separate;
+	border-spacing: 2px;
+	border-color: gray;
+*/
+}
+
+table.tablesorter_user
+{
+	position:relative;
+	width:100%;
+	/*border-top:2px solid #CCCCCC;*/
+	border-left:3px solid #CCCCCC;
+	border-right:3px solid #CCCCCC;
+	/*border-bottom:2px solid #CCCCCC;*/
+	font-family:Arial;
+	border-spacing:1px;
+}
+
+table.tablesorter_user thead tr th, table.tablesorter_user tfoot tr th
+{
+	color:#000000;
+	background-color:#e6e6e6;
+	height:25px;
+}
+
+table.tablesorter_user thead tr .header
+{
+	background-image: url(../images/tables/bg.gif);
+	background-repeat: no-repeat;
+	background-position: center right;
+	cursor: pointer;
+}
+
+table.tablesorter_user tbody td
+{
+	border-right: 1px solid #ddd;
+}
+
+table.tablesorter_user thead tr .headerSortUp
+{
+	background-image: url(../images/tables/asc.gif);
+	background-repeat: no-repeat;
+	background-position: center right;
+	cursor: pointer;
+}
+
+table.tablesorter_user thead tr .headerSortDown
+{
+	background-image: url(../images/tables/desc.gif);
+	background-repeat: no-repeat;
+	background-position: center right;
+	cursor: pointer;
+}
+
+table.tablesorter_user thead tr .headerSortDown, table.tablesorter_user thead tr .headerSortUp
+{
+	background-color: #d6d6d6;
+}
+
+
+table.tablesorter1
+{
+	position:relative;
+	width:100%;
+	/*border-top:2px solid #CCCCCC;*/
+	font-family:Arial;
+	border-spacing:1px;
+	border-left:3px solid #CCCCCC;
+	border-right:3px solid #CCCCCC;
+	/*border-bottom:2px solid #CCCCCC;*/
+
+/*	border-collapse:collapse;
+	border-collapse: separate;
+	border-spacing: 2px;
+	border-color: gray;
+*/
+}
+
+
+table.tablesorter thead tr th, table.tablesorter tfoot tr th
+{
+	color:#000000;
+/*	text-align:left;*/
+	background-color:#e6e6e6;
+	height:25px;
+/*	padding: 0px 5px 0px 5px;*/
+}
+
+
+table.tablesorter1 thead tr th, table.tablesorter tfoot tr th
+{
+	color:#000000;
+/*	text-align:left;*/
+	background-color:#e6e6e6;
+	height:25px;
+/*	padding: 0px 5px 0px 5px;*/
+}
+
+
+table.tablesorter thead tr .header
+{
+	background-image: url(../images/tables/bg.gif);
+	background-repeat: no-repeat;
+	background-position: center right;
+	cursor: pointer;
+}
+
+table.tablesorter1 thead tr .header
+{
+	background-image: url(../images/tables/bg.gif);
+	background-repeat: no-repeat;
+	background-position: center right;
+	cursor: pointer;
+}
+
+
+table.tablesorter tbody td
+{
+/*
+	color: #3D3D3D;
+	background-color: #FFF;
+	vertical-align: top;
+	padding: 0px 5px 0px 5px;
+	white-space: nowrap;
+*/
+	border-right: 1px solid #ddd;
+	/*border-left: 1px solid #fff;*/
+
+}
+
+
+/*
+table.tablesorter tbody td.over
+{
+	background-color:#CCCCCC;
+}
+
+table.tablesorter tbody td.selected
+{
+	background-color:#BBBBBB;
+}
+*/
+table.tablesorter thead tr .headerSortUp
+{
+	background-image: url(../images/tables/asc.gif);
+	background-repeat: no-repeat;
+	background-position: center right;
+	cursor: pointer;
+}
+
+table.tablesorter thead tr .headerSortDown
+{
+	background-image: url(../images/tables/desc.gif);
+	background-repeat: no-repeat;
+	background-position: center right;
+	cursor: pointer;
+}
+
+
+table.tablesorter1 thead tr .headerSortUp
+{
+	background-image: url(../images/tables/asc.gif);
+	background-repeat: no-repeat;
+	background-position: center right;
+	cursor: pointer;
+}
+
+table.tablesorter1 thead tr .headerSortDown
+{
+	background-image: url(../images/tables/desc.gif);
+	background-repeat: no-repeat;
+	background-position: center right;
+	cursor: pointer;
+}
+
+
+
+table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSortUp
+{
+	background-color: #d6d6d6;
+}
+
+table.tablesorter1 thead tr .headerSortDown, table.tablesorter1 thead tr .headerSortUp
+{
+	background-color: #d6d6d6;
+}
+
+
+table.innertable
+{
+	display: none;
+}
+
+table.innertable thead tr th
+{
+	background-color: #e6e6e6;
+}
+
+table.innertable tbody tr td
+{
+	background-color: #DDD;
+}
+
+
+
+div.pGroup {
+	float: left;
+	background: none;
+	height: 24px;
+	margin: 0px 5px;
+}
+
+div.pGroup_right {
+	float: right;
+	background: none;
+	height: 24px;
+	margin: 0px 5px;
+}
+
+.btnseparator_right {
+	float: right;
+	height: 22px;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #fff;
+	margin: 1px;
+}
+
+
+
+.btnseparator {
+	float: left;
+	height: 22px;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #fff;
+	margin: 1px;
+}
+
+div.pButton {
+	float: left;
+	width: 22px;
+	height: 22px;
+	border: 0px;
+	cursor: pointer;
+	overflow: hidden;
+}
+
+
+div.pButton:hover, div.pButton.pBtnOver {
+	width:20px;
+	height:20px;
+	border:1px solid #ccc;
+	cursor:pointer;
+}
+
+div.pButton span {
+	width:20px;
+	height:20px;
+	display:block;
+	float:left;
+}
+
+div.pButton:hover span/*, div.pButton.pBtnOver span */{
+	width:19px;
+	height:19px;
+	border-top:1px solid #fff;
+	border-left:1px solid #fff;
+}
+
+.pPageStat, .pcontrol {
+	position: relative;
+	top: 0px;
+	overflow: visible;
+	font-family:Arial;
+}
+
+.pFirst {
+	background: url(../images/tables/first.gif) no-repeat center;
+}
+
+.pPrev {
+	background:url(../images/tables/prev.gif) no-repeat center;
+}
+
+.pNext {
+	background:url(../images/tables/next.gif) no-repeat center;
+}
+
+.pLast {
+	background:url(../images/tables/last.gif) no-repeat center;
+}
+
+.infoBoxHeading_td {
+	color: #3eb1f3;
+	font-size: 18px;
+	line-height: 13px;
+	font-weight: bold;
+	font-family: Arial;
+	text-transform: uppercase;
+}
+
+
+.bg_list {
+	/*background: url(../images/tables/add.png) no-repeat left;*/
+	color: #333333;
+	font-size: 12px;
+	font-weight:bold;
+	line-height: 15px;
+	font-family: arial;
+}
+
+.bg_list_selected {
+	/*background: url(../images/tables/add.png) no-repeat left;*/
+	color: #FF0000;
+	font-size: 14px;
+	font-weight:bold;
+	line-height: 15px;
+	font-family: arial;
+}
+
+.bg_list:hover{
+	color: #11FFFF;
+	font-size: 12px;
+	font-weight:bold;
+	line-height: 15px;
+	font-family: arial;
+	cursor:pointer;
+}
+
+
+.bg_list_selected:hover{
+	color: #11FFFF;
+	font-size: 14px;
+	font-weight:bold;
+	line-height: 15px;
+	font-family: arial;
+	cursor:pointer;
+}
+
+
+.bg_list div{
+	padding-left:13px;
+}
+
+
+.bg_list_selected div{
+	padding-left:13px;
+}
+
+
+.bg_list div span:hover{
+	color: #11FFFF;
+}
+
+
+.bg_list_selected div span:hover{
+	color: #11FFFF;
+}
+
+
+.inc_order{
+	background: url(../images/tables/add.png) no-repeat center;
+	width:100%;
+	cursor: pointer;
+}
+
+.numeric_type_order{
+	background: url(../images/icon-keypad.png) no-repeat center;
+	width:100%;
+	cursor: pointer;
+}
+
+.dec_order{
+	background: url(../images/tables/close.png) no-repeat center;
+	width:100%;
+	cursor: pointer;
+}
+
+.price_per_pack_empty
+{
+	text-align:right;
+}
+
+.price_per_pack_empty span
+{
+	color:#000000;
+}
+
+.price_per_pack
+{
+	text-align:right;
+}
+
+.price_per_pack span
+{
+	color:#0000FF;
+	font-weight:bold;
+}
+
+
+.true_icon{
+	background: url(../images/tables/true.png) no-repeat center;
+	width:100%;
+	cursor: pointer;
+}
+
+.false_icon{
+	background: url(../images/tables/false.png) no-repeat center;
+	width:100%;
+	cursor: pointer;
+}
+
+.quantity_cell{
+	width:30px;
+	height:12px;
+	text-align:right;
+	border:2px solid;
+	border-color:#CCCCCC;
+	-moz-border-radius : 4px;
+    -webkit-border-radius : 4px;
+    border-radius : 4px;
+}
